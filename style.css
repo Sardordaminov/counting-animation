@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #121317;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper{
+    width: 70vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.container{
+    width: 200px;
+    height: 250px;
+    background-color: #21212d;
+    border-radius: 10px;
+    transition: 0.3s linear;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.container:hover{
+    transform: scale(1.1);
+}
+.container.facebook{
+    border-bottom: 10px solid #4267B2;
+}
+.container.instagram{
+    border-bottom: 10px solid #C13584;
+}
+.container.youtube{
+    border-bottom: 10px solid #FF0000;
+}
+.container.twitter{
+    border-bottom: 10px solid #1DA1F2;
+}
+.fa-brands{
+    font-size: 40px;
+}
+.fa-facebook-f{
+    color: #4267B2;
+}
+.fa-instagram{
+    color: #C13584;
+}
+.fa-youtube{
+    color: #FF0000;
+}
+.fa-twitter{
+    color: #1DA1F2;
+}
+.num{
+    font-size: 35px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-family: monospace;
+}
+.text{
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
